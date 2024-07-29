@@ -2,7 +2,7 @@ import React from 'react'
 import useGithub from '../../CustomHooks/useGithub'
 
 const Team = () => {
-    const {githubProfile} =useGithub("PankajKumar1947");
+    const {githubProfile} =useGithub("suman-maji");
     //console.log(githubProfile)
 
   return (
@@ -20,7 +20,7 @@ const Team = () => {
                     href={githubProfile?.html_url}
                     className='  bg-transparent border-[1px] hover:bg-white hover:text-black overflow-hidden  px-2 py-1  rounded-3xl'>Github</a>
                     <a 
-                    href='https://www.linkedin.com/in/pankaj-kumar-5bbb44268/'
+                    href='https://www.linkedin.com/in/suman09/'
                     className='  bg-transparent border-[1px] hover:bg-white hover:text-black overflow-hidden  px-2 py-1 rounded-3xl'>LinkedIn</a>
                 </div>
             </div>     
