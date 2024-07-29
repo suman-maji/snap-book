@@ -7,7 +7,6 @@ import Hero from "../Component/Hero/Hero";
 import Newsletter from "../Component/Newsletter/Newsletter";
 import Products from "../Component/Product/Products";
 import Team from "../Component/Team/Team";
-import Contributor from '../Component/Team/Contributor';
 import bg from '../Assets/bg/bg3.jpg'
 
 
