@@ -26,7 +26,6 @@ const Home = () => {
         style={{ backgroundImage: `url(${bg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
         className='grid sm:grid-cols-2 bg-gray-900'>
           <Team/>
-          <Contributor/>
         </div>
       
         
