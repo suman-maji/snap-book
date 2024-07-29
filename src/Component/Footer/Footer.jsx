@@ -36,14 +36,14 @@ const Footer = () => {
       <br />
       <br /><br />
       <div className='text-2xl md:text-6xl flex gap-2 items-center' >
-        <a href='https://makbook-makaut.vercel.app/' className='hover:text-gray-400'>makbook-makaut</a>
+        <a href='https://makbook-makaut.vercel.app/' className='hover:text-gray-400'>MAKAUT hand book</a>
         <div className='text-4xl md:text-8xl'>
           <GoArrowDownRight/>
         </div>    
       </div>
 
       <hr />
-      <p className='my-3 text-xs sm:text-lg'>​© 2024 by Snap-Study. Created by <a className='text-red-600' href="https://github.com/suman-maji">Suman Maji</a> .</p>
+      <p className='my-3 text-xs sm:text-lg'>​© 2024 by MAK-Book.Created by <a className='text-red-600' href="https://github.com/suman-maji">Suman Maji</a> .</p>
       <hr />
     </div>
   )
