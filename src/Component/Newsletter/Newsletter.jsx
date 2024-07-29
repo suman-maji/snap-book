@@ -18,7 +18,7 @@ const Newsletter = () => {
   }
   return (
     <div className='sm:max-w-[70%] mx-2 text-sm sm:text-base sm:mx-auto rounded-2xl my-14 bg-gray-900 text-white p-5'>
-        <h1 className='text-2xl sm:text-4xl'>Subscribe to our newsletter</h1>
+        <h1 className='text-2xl sm:text-4xl'>Subscribe to MAK-Book newsletter</h1>
         <div className='mt-4 flex flex-col w-[100%] gap-2'>
             <label htmlFor='email' className='ml-2 text-xl'>Email</label>
             <input 
@@ -31,7 +31,7 @@ const Newsletter = () => {
             <input 
             onClick={()=>setClick((prev)=>!prev)}
             type="checkbox" />
-            <label htmlFor="">Yes, Subscribe me to your newsletter</label>
+            <label htmlFor="">Yes, Subscribe me to MAK-Book newsletter</label>
         </div>
         <div className='px-2 text-red-400'>
           {showClick ? <h1>Please tick the checkbox</h1>:""}
