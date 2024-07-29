@@ -6,24 +6,24 @@ import bg from '../../Assets/bg/bg3.jpg'
 const Products = () => {
     const prouductData=[
         {
-            route:"news",
+            route:"News",
             title:"Latest News",
-            desc:"Get all the latest news related to Makaut university ."
+            desc:"Get all the latest news related to MAKAUT University ."
         },
         {
-            route:"playlist",
+            route:"Playlist",
             title:"Chapterwise Video  Playlist",
-            desc:"Don't worry here you will get all the video lecture  of each chapter in one playlist."
+            desc:"Don't worry here you will get all the video lecture of each chapter in one playlist."
         },
        {
-            route:"organiser",
+            route:"Organiser",
             title:"Get the latest Orgniser",
-            desc:"This section is for latest organisers, 1 stop solution  for all organizer needs."
+            desc:"This section is for latest organisers, 1 stop solution for all organizer needs."
         },
         {
-            route:"pyq",
+            route:"PYQ",
             title:"Yearwise Subject PYQ",
-            desc:"Boost your preparation with yearwise  subject PYQ. Get it now!"
+            desc:"Boost your preparation with yearwise subject PYQ. Get it now!"
         },
     ]
 
